@@ -6,7 +6,7 @@ public class odev1 {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("choose an dimension");
+		System.out.println("choose a dimension");
 		int dimension = scanner.nextInt();
 		System.out.println("choose an odd number");
 		int max = scanner.nextInt();

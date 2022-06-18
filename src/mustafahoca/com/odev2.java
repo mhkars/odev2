@@ -20,7 +20,7 @@ public class odev2 {
 			}
 
 			if (total > 1) {
-				System.out.println("character" + text.charAt(i) + " accours " + total + "times");
+				System.out.println("character " + text.charAt(i) + " accours " + total + " times");
 			}
 			text = text.replace(text.charAt(i), ' ');
 			total = 0;
