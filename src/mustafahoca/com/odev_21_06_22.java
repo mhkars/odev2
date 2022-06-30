@@ -75,11 +75,13 @@ public class odev_21_06_22 {
 			for (int j = 0; j < (sesli.length); j++) {
 
 				if (iller[i].contains(sesli[j])) {
-					iller[i] = iller[i].replace(sesli[j], "");
+					yeni_iller[i] = iller[i].replace(sesli[j], "");
+				} else {
+					yeni_iller[i] = iller[i];
+
 				}
 
 			}
-			yeni_iller[i] = iller[i];
 
 		}
 		return yeni_iller;
